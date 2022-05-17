@@ -1,1 +1,194 @@
-/* You can add global styles to this file, and also import other style files */
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+// @import '~@angular/material/theming';
+// @include mat-core();
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+// $weatherApp-primary: mat-palette($mat-indigo);
+// $weatherApp-accent: mat-palette($mat-pink, A200, A100, A400);
+// $weatherApp-warn: mat-palette($mat-red);
+// $weatherApp-theme: mat-light-theme(( color: ( primary: $weatherApp-primary, accent: $weatherApp-accent, warn: $weatherApp-warn, )));
+// @include angular-material-theme($weatherApp-theme);
+$black: #363839;
+$lightgray: #9c9e9f;
+$orange: #f2994a;
+$blue:rgba(0, 0, 255, 0.5);
+$emerald:#059669;
+$emerald-2: #10b981;
+$white: #ffffff;
+$gray: #EDEDED;
+$blue-1:#3C429E;
+$sky-blue:#2aaaff;
+$yellow:#fbff00;
+$red :rgba(255, 0, 0, 0.5);
+$shadow-dark:rgba(0, 0, 0, 0.3);
+$shadow-light:rgba(255, 255, 255, 0.1);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body {
+        align-items: center;
+        background-color: $emerald;
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        height: 100vh;
+        justify-content: center;
+        width: 100%;
+        // flex-direction: row;
+        .search {
+            margin-bottom: 1em;
+            text-align: center;
+            z-index: 1;
+            position: relative;
+            input {
+                background-color: $shadow-dark;
+                outline: none;
+                border: none;
+                color: $gray;
+                border-radius: 20px;
+                padding: 1em;
+                font-size: 0.8em;
+                text-align: center;
+                &::placeholder {
+                    color: $gray;
+                }
+            }
+        }
+        img.background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .container {
+            backdrop-filter: blur(8px);
+            background-color: $shadow-dark;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px $shadow-dark;
+            height: 60vh;
+            width: 600px;
+            position: relative;
+            overflow: hidden;
+            .up {
+                width: 100%;
+                height: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                .weather-data-container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    width: 100%;
+                    padding: 1em;
+                    .weather-data {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                        .icon {
+                            display: flex;
+                            img {}
+                        }
+                        .location,
+                        .temperature,
+                        .describe {
+                            color: $white;
+                            text-align: center;
+                        }
+                        .location {
+                            font-size: 1.2em;
+                        }
+                        .temperature {
+                            font-size: 4em;
+                            font-weight: 900;
+                        }
+                        .describe {
+                            font-size: 0.9em;
+                            text-transform: capitalize;
+                        }
+                    }
+                    .date_time {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-end;
+                        color: $white;
+                        .date {}
+                        .time {}
+                    }
+                }
+            }
+            .down {
+                display: flex;
+                flex-direction: column;
+                height: 20%;
+                width: 100%;
+                .more-info-container {
+                    background-color: $shadow-light;
+                    display: flex;
+                    flex: 1;
+                    .flip-card-block {
+                        width: 20%;
+                        display: flex;
+                        perspective: 1000px;
+                        &:hover .flip-card {
+                            transform: rotateY(180deg);
+                        }
+                        .flip-card {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            position: relative;
+                            width: 100%;
+                            height: 100%;
+                            transition: transform 0.6s;
+                            transform-style: preserve-3d;
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                            .info-block-front,
+                            .info-block-back {
+                                backface-visibility: hidden;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                            }
+                            .info-block-front {
+                                flex-direction: column;
+                                .icons {
+                                    color: $white;
+                                    text-align: center;
+                                    &.yellow {
+                                        color: $yellow;
+                                    }
+                                    &.blue {
+                                        color: $sky-blue;
+                                    }
+                                }
+                                span {
+                                    color: $white;
+                                    font-size: 0.9em;
+                                    text-align: center;
+                                }
+                            }
+                            .info-block-back {
+                                color: $white;
+                                text-align: center;
+                                transform: rotateY(180deg);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer {
+            z-index: 1;
+            display: flex;
+        }
+    }
+}
