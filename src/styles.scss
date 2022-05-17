@@ -53,7 +53,7 @@ $shadow-light:rgba(255, 255, 255, 0.1);
             height: 100%;
         }
         .container {
-            backdrop-filter: blur(8px);
+            backdrop-filter: blur(15px);
             background-color: $shadow-dark;
             border-radius: 20px;
             box-shadow: 10px 10px 10px $shadow-dark;

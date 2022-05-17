@@ -12,7 +12,7 @@ export class AppComponent implements OnInit{
 
   }
 
-  cityName:string = 'Riyadh';
+  cityName?:string;
   weatherData?:weatherData;
 
   ngOnInit(): void {
@@ -33,5 +33,5 @@ export class AppComponent implements OnInit{
       }
     });
   }
- 
+
 }
