@@ -1,5 +1,5 @@
  
- <h1 align="center"> Covid-19 Tracker 
+ <h1 align="center"> Weather App
 
  
 
@@ -8,7 +8,7 @@
 </h1>
 
 
-![Angular Badge](https://img.shields.io/badge/-Angular-DD0031?style=flat&labelColor=black&logo=angular&logoColor=DD0031) ![Material Badge](https://img.shields.io/badge/-Material_UI-2196F3?style=flat&labelColor=black&logo=materialdesign&logoColor=2196F3) ![Sass Badge](https://img.shields.io/badge/-Sass-CC6699?style=flat&labelColor=black&logo=Sass&logoColor=CC6699)
+[![Angular Badge](https://img.shields.io/badge/-Angular-DD0031?style=flat&labelColor=black&logo=angular&logoColor=DD0031)](https://angular.io/docs) [![Material Badge](https://img.shields.io/badge/-Material_UI-2196F3?style=flat&labelColor=black&logo=materialdesign&logoColor=2196F3)](https://material.angular.io/) [![Sass Badge](https://img.shields.io/badge/-Sass-CC6699?style=flat&labelColor=black&logo=Sass&logoColor=CC6699)](https://sass-lang.com/)
 
 
   <a href=" https://www.weatherapi.com/ " title="Free Weather API ">
