@@ -1,27 +1,15 @@
-# WeatherApp
+ 
+ <h1 align="center"> Covid-19 Tracker 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
+ 
 
-## Development server
+ ![Created Badge](https://badges.pufler.dev/created/sumaiyakawsar/SKWeatherApp?&style=plastic&color=black&labelColor=1AEE0B) ![Updated Badge](https://badges.pufler.dev/updated/sumaiyakawsar/SKWeatherApp?&style=plastic&color=black&labelColor=0004FF) ![Visits Badge](https://badges.pufler.dev/visits/sumaiyakawsar/SKWeatherApp?&style=plastic&color=black&labelColor=BF3F41) [![wakatime](https://wakatime.com/badge/github/sumaiyakawsar/SKWeatherApp.svg)](https://wakatime.com/badge/github/sumaiyakawsar/SKWeatherApp)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+</h1>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Angular Badge](https://img.shields.io/badge/-Angular-DD0031?style=flat&labelColor=black&logo=angular&logoColor=DD0031) ![Material Badge](https://img.shields.io/badge/-Material_UI-2196F3?style=flat&labelColor=black&logo=materialdesign&logoColor=2196F3) ![Sass Badge](https://img.shields.io/badge/-Sass-CC6699?style=flat&labelColor=black&logo=Sass&logoColor=CC6699)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
