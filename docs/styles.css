@@ -12,6 +12,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  -webkit-user-select: none;
+          user-select: none;
 }
 * body .search {
   margin-bottom: 1em;
