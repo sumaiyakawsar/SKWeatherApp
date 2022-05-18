@@ -5,6 +5,8 @@
 
  ![Created Badge](https://badges.pufler.dev/created/sumaiyakawsar/SKWeatherApp?&style=plastic&color=black&labelColor=1AEE0B) ![Updated Badge](https://badges.pufler.dev/updated/sumaiyakawsar/SKWeatherApp?&style=plastic&color=black&labelColor=0004FF) ![Visits Badge](https://badges.pufler.dev/visits/sumaiyakawsar/SKWeatherApp?&style=plastic&color=black&labelColor=BF3F41) [![wakatime](https://wakatime.com/badge/github/sumaiyakawsar/SKWeatherApp.svg)](https://wakatime.com/badge/github/sumaiyakawsar/SKWeatherApp)
 
+  
+  
 </h1>
 
 
