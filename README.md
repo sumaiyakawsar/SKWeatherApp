@@ -9,10 +9,10 @@
   
 </h1>
 
-# Technologies Used 
+## Technologies Used 
 [![Angular Badge](https://img.shields.io/badge/-Angular-DD0031?style=flat&labelColor=black&logo=angular&logoColor=DD0031)](https://angular.io/docs) [![Material Badge](https://img.shields.io/badge/-Material_UI-2196F3?style=flat&labelColor=black&logo=materialdesign&logoColor=2196F3)](https://material.angular.io/) [![Sass Badge](https://img.shields.io/badge/-Sass-CC6699?style=flat&labelColor=black&logo=Sass&logoColor=CC6699)](https://sass-lang.com/)
 
-# Future Work
+## Future Work
 1. Add 5 Day or Future Forecast
 
 
